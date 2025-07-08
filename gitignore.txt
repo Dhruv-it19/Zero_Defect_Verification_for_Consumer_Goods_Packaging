@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+wandb/
+runs/
+predictions/
+data/
+*.pt
+*.pth
+*.weights
+*.onnx
+dataset_statistics.csv
+
+# OS specific
+.DS_Store
+Thumbs.db 
